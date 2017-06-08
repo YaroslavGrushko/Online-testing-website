@@ -7,13 +7,13 @@ You can add new ones manually in the database. Table containing questions is:
 Table containing the answers is: "allanswers". The question id is also "id_q", 
 the answer id is "id_a".
 
-#To launch a website, follow these instructions:
+# To launch a website, follow these instructions:
 
 1.Install JDK (I'm using jdk1.8.0_73).
 2.Install Intellij IDEA (set JDK in Intellij IDEA).
 2.Set the JAVA_HOME Variable.
 3.Install PostgreSQL (username="postgres", password="root").
-4.Unpackage DB dump (trainSite\DB\TrainDb_dump.sql).
-5.Tomcat server is already installed in the directory: trainSite\localtest.
+4.Unpackage DB dump ( Web-site-for-passing-tests\DB\TrainDb_dump.sql).
+5.Tomcat server is already installed in the directory:  Web-site-for-passing-tests\localtest.
 6.Run the project (You may need to open a browser and go to url: http://localhost/).
 
