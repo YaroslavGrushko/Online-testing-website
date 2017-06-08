@@ -1,0 +1,409 @@
+/*
+
+	
+
+	Name       : Master Service
+	Version    : 1.0
+	Released   : 20130222
+	
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #1495ff;
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+body {
+	font-size: 14pt;
+	line-height: 1.75em;
+	font-family: Georgia, serif;
+	background: #ffffff;
+	color: #000;
+}
+
+br.clear {
+	clear: both;
+}
+
+h1,h2,h3,h4 {
+	text-transform: lowercase;
+	letter-spacing: -1px;
+}
+
+h2,h3,h4 {
+	margin-bottom: 1em;
+	font-family: Arvo, serif;
+	color: #fff;
+}
+
+img.left {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+
+img.top {
+	margin: 5px 0 20px 0;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+ul {
+	margin-bottom: 1.5em;
+}
+
+.imageList {
+	list-style: none;
+}
+
+.imageList li {
+	clear: both;
+}
+
+#bg {
+	background: url('images/shadow.png') top left repeat-x;
+}
+
+#banner {
+	background: #fff;
+}
+
+#box1 {
+	width: 745px;
+	overflow: hidden;
+	margin: 0 0 35px 0;
+}
+
+#box2 {
+	width: 355px;
+	overflow: hidden;
+	float: left;
+}
+
+#box3 {
+	width: 355px;
+	overflow: hidden;
+	margin: 0 0 0 395px;
+}
+
+#content {
+	width: 745px;
+	margin: 0 0 0 355px;
+	padding: 40px;
+	background: #fff;
+	-moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+#copyright {
+	padding: 0 0 80px 0;
+	text-align: center;
+	color: #000;
+}
+
+#copyright a {
+	color: #D8C2AB;
+}
+
+#footer {
+	position: relative;
+	padding: 40px;
+	width: 1100px;
+	color: #e1d2c7;
+}
+
+#footer a {
+	color: #f4eeea;
+}
+
+#footer h2, #footer h3, #footer h4 {
+	color: #f4eeea;
+}
+
+#footer ul {
+	list-style: none;
+}
+
+#footer ul li {
+	padding: 15px 0 15px 0;
+	border-top: dotted 1px #c6aa95;
+}
+
+#footer ul li.first {
+	padding-top: 0;
+	border-top: 0;
+}
+
+#footerContent {
+	width: 745px;
+	margin: 0 0 0 355px;
+}
+
+#footerSidebar {
+	width: 240px;
+	float: Center;
+}
+
+#header {
+	position: relative;
+	padding: 40px;
+	height: 120px;
+}
+
+#logo {
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	height: 120px;
+	line-height: 120px;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#logo h1 {
+	font-size: 3.8em;
+	font-family: Lobster, cursive;
+	text-shadow: 0 2px 1px #32251B;
+}
+
+#main {
+	position: relative;
+	padding: 0;
+	width: 1180px;
+	color: #5e5e5e;
+}
+
+#main strong {
+	color: #3e3e3e;
+}
+
+#main a {
+	color: #242424;
+}
+
+#main h2, #main h3, #main h4 {
+	color: #242424;
+}
+
+#main ul {
+	list-style: none;
+}
+
+#main ul li {
+	padding: 15px 0 15px 0;
+	border-top: dotted 1px #b3b3b3;
+}
+
+#main ul li.first {
+	padding-top: 0;
+	border-top: 0;
+}
+
+#main ul.imageList li {
+	padding: 15px 0 15px 0;
+}
+
+#nav {
+	position: absolute;
+	right: 40px;
+	height: 53px;
+	line-height: 53px;
+	top: 73px;
+}
+
+#nav a {
+	text-decoration: none;
+	text-transform: lowercase;
+	color: #f4eeea;
+	text-shadow: 0 1px 1px #32251B;
+	font-size: 1.2em;
+}
+
+#nav li {
+	margin: 0 1em 0 1em;
+}
+
+#nav ul {
+	list-style: none;
+}
+
+#nav ul li {
+	float: left;
+}
+
+#outer {
+	position: relative;
+	width: 1180px;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+#search input.button {
+	margin-left: 1em;
+	border: 0;
+	color: #fff;
+	background: #1495ff;
+	padding: 11px;
+}
+
+#search input.text {
+	border: dotted 1px #fff;
+	padding: 10px;
+}
+
+#sidebar {
+	width: 240px;
+	float: left;
+	padding: 40px;
+	background: #32251b;
+	color: #e1d2c7;
+	-moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+#sidebar a {
+	color: #e2e0df;
+}
+
+#sidebar h2, #sidebar h3, #sidebar h4 {
+	color: #fff;
+}
+
+#sidebar ul {
+	list-style: none;
+}
+
+#sidebar ul li {
+	padding: 15px 0 15px 0;
+	border-top: dotted 1px #70665f;
+}
+
+#sidebar ul li.first {
+	padding-top: 0;
+	border-top: 0;
+}
+
+/* При помощи определений width: 800px; и margin: 0 auto; 
+мы задаем блоку-контейнеру ширину 800 пикселей и 
+располагаем его по центру html-документа*/
+#container {
+  margin: 0 auto;
+  border: 3px solid #EEEEEE;
+  width: 796px;
+ -moz-border-radius: 6px;
+  border-radius: 6px; }
+  
+  
+/*
+textarea {
+width: 400px;
+height: 150px;
+line-height: 150%;
+}
+.send input {
+width: auto;
+margin-bottom: 10px;
+border: 2px solid #E0E0F3;
+font: Times New Roman, Geneva, sans-serif;
+background-color: #E5E5F8;
+}*/
+  
+  
+/*При наведении курсора на элемент, его границы становятся немного темнее и четче: */ 
+input:hover, textarea:hover, input:focus, textarea:focus {
+border-color: #A0A0A0;
+}
+.send input:hover {
+border: 2px solid #C0C0E3;
+}
+/*стили страницы контактов */
+#feedback-form {
+  max-width: 796px;
+  padding: 2%;
+  border-radius: 3px;
+  background: #f1f1f1;
+}
+#feedback-form [required] {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 2px 0 2% 0;
+  padding: 2%;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 3px;
+  box-shadow: 0 1px 2px -1px rgba(0,0,0,.2) inset, 0 0 transparent;
+}
+#feedback-form [required]:hover {
+  border-color: #7eb4ea;
+  box-shadow: 0 1px 2px -1px rgba(0,0,0,.2) inset, 0 0 transparent;
+}
+#feedback-form [required]:focus {
+  outline: none;
+  border-color: #7eb4ea;
+  box-shadow: 0 1px 2px -1px rgba(0,0,0,.2) inset, 0 0 4px rgba(35,146,243,.5);
+  transition: .2s linear;
+}
+#feedback-form [type="submit"] {
+  padding: 2%;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.2) inset;
+  background: #669acc;
+  color: #fff;
+}
+#feedback-form [type="submit"]:hover {
+  background: #5c90c2;
+}
+#feedback-form [type="submit"]:focus {
+  box-shadow: 0 1px 1px #fff, inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05);
+}
+.outer {
+	overflow: hidden;
+	position: relative;
+}
+.inner {
+	position: absolute;
+	left: 150px;
+}
+.inner1{
+	 top: 7px;
+ }
+.inner2{
+	top: 38px;
+}
+.inner3{
+	top: 69px;
+}
+.inner4{
+	top: 100px;
+}
+.inner5{
+	top: 131px;
+}
+.inner6{
+	 top: 162px;
+ }
+.inner7{
+	top: 193px;
+}
+.inner8{
+	top: 224px;
+}
+.inner9{
+	top: 255px;
+}
+.innerButton{
+	width: 162px;
+}

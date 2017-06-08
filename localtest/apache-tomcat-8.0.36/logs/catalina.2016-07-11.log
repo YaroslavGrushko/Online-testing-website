@@ -1,0 +1,214 @@
+11-Jul-2016 12:20:17.644 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.36
+11-Jul-2016 12:20:17.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 9 2016 13:55:50 UTC
+11-Jul-2016 12:20:17.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.36.0
+11-Jul-2016 12:20:17.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-Jul-2016 12:20:17.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-Jul-2016 12:20:17.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Jul-2016 12:20:17.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_91\jre
+11-Jul-2016 12:20:17.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_91-b15
+11-Jul-2016 12:20:17.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Jul-2016 12:20:17.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Документы Ярослава\Практика\trainSite\localtest\apache-tomcat-8.0.36
+11-Jul-2016 12:20:17.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Документы Ярослава\Практика\trainSite\localtest\apache-tomcat-8.0.36
+11-Jul-2016 12:20:17.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Jul-2016 12:20:17.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=c:\Документы Ярослава\Практика\trainSite\localtest\apache-tomcat-8.0.36\conf\logging.properties
+11-Jul-2016 12:20:17.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Jul-2016 12:20:17.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=c:\Документы Ярослава\Практика\trainSite\localtest\apache-tomcat-8.0.36\endorsed
+11-Jul-2016 12:20:17.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=c:\Документы Ярослава\Практика\trainSite\localtest\apache-tomcat-8.0.36
+11-Jul-2016 12:20:17.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=c:\Документы Ярослава\Практика\trainSite\localtest\apache-tomcat-8.0.36
+11-Jul-2016 12:20:17.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=c:\Документы Ярослава\Практика\trainSite\localtest\apache-tomcat-8.0.36\temp
+11-Jul-2016 12:20:17.660 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_91\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Microsoft HPC Pack 2012\Bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Users\Ярослав\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\MATLAB\R2015b\runtime\win64;C:\Program Files\MATLAB\R2015b\bin;C:\Program Files\MATLAB\R2015b\polyspace\bin;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;.
+11-Jul-2016 12:20:17.897 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-80"]
+11-Jul-2016 12:20:18.016 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Jul-2016 12:20:18.021 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Jul-2016 12:20:18.025 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Jul-2016 12:20:18.026 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1049 ms
+11-Jul-2016 12:20:18.040 WARNING [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = postgres Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+11-Jul-2016 12:20:18.041 WARNING [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = postgres Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "-1" for "maxWait" property, which is being ignored.
+11-Jul-2016 12:20:18.084 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+11-Jul-2016 12:20:18.085 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.36
+11-Jul-2016 12:20:18.997 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Jul-2016 12:20:19.152 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
+11-Jul-2016 12:20:19.161 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Jul-2016 12:20:19.164 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1137 ms
+11-Jul-2016 12:30:39.327 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+11-Jul-2016 12:30:39.883 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+11-Jul-2016 12:44:32.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.36
+11-Jul-2016 12:44:32.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 9 2016 13:55:50 UTC
+11-Jul-2016 12:44:32.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.36.0
+11-Jul-2016 12:44:32.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-Jul-2016 12:44:32.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-Jul-2016 12:44:32.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Jul-2016 12:44:32.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_91\jre
+11-Jul-2016 12:44:32.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_91-b15
+11-Jul-2016 12:44:32.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Jul-2016 12:44:32.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Документы Ярослава\Практика\trainSite\localtest\apache-tomcat-8.0.36
+11-Jul-2016 12:44:32.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Документы Ярослава\Практика\trainSite\localtest\apache-tomcat-8.0.36
+11-Jul-2016 12:44:32.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Jul-2016 12:44:32.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=c:\Документы Ярослава\Практика\trainSite\localtest\apache-tomcat-8.0.36\conf\logging.properties
+11-Jul-2016 12:44:32.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Jul-2016 12:44:32.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=c:\Документы Ярослава\Практика\trainSite\localtest\apache-tomcat-8.0.36\endorsed
+11-Jul-2016 12:44:32.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=c:\Документы Ярослава\Практика\trainSite\localtest\apache-tomcat-8.0.36
+11-Jul-2016 12:44:32.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=c:\Документы Ярослава\Практика\trainSite\localtest\apache-tomcat-8.0.36
+11-Jul-2016 12:44:32.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=c:\Документы Ярослава\Практика\trainSite\localtest\apache-tomcat-8.0.36\temp
+11-Jul-2016 12:44:32.541 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_91\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Microsoft HPC Pack 2012\Bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Users\Ярослав\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\MATLAB\R2015b\runtime\win64;C:\Program Files\MATLAB\R2015b\bin;C:\Program Files\MATLAB\R2015b\polyspace\bin;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;.
+11-Jul-2016 12:44:32.791 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-80"]
+11-Jul-2016 12:44:32.900 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Jul-2016 12:44:32.900 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Jul-2016 12:44:32.916 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Jul-2016 12:44:32.916 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1065 ms
+11-Jul-2016 12:44:32.932 WARNING [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = postgres Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+11-Jul-2016 12:44:32.932 WARNING [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = postgres Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "-1" for "maxWait" property, which is being ignored.
+11-Jul-2016 12:44:32.978 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+11-Jul-2016 12:44:32.978 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.36
+11-Jul-2016 12:44:33.885 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Jul-2016 12:44:34.010 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
+11-Jul-2016 12:44:34.025 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Jul-2016 12:44:34.025 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1116 ms
+11-Jul-2016 12:51:46.098 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+11-Jul-2016 12:51:46.098 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-80"]
+11-Jul-2016 12:51:46.177 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-Jul-2016 12:51:46.239 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+11-Jul-2016 12:51:46.255 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-80"]
+11-Jul-2016 12:51:46.270 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-Jul-2016 12:51:46.270 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-80"]
+11-Jul-2016 12:51:46.270 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+11-Jul-2016 13:21:38.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.36
+11-Jul-2016 13:21:38.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 9 2016 13:55:50 UTC
+11-Jul-2016 13:21:38.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.36.0
+11-Jul-2016 13:21:38.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-Jul-2016 13:21:38.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-Jul-2016 13:21:38.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Jul-2016 13:21:38.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_91\jre
+11-Jul-2016 13:21:38.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_91-b15
+11-Jul-2016 13:21:38.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Jul-2016 13:21:38.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Документы Ярослава\Практика\trainSite\localtest\apache-tomcat-8.0.36
+11-Jul-2016 13:21:38.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Документы Ярослава\Практика\trainSite\localtest\apache-tomcat-8.0.36
+11-Jul-2016 13:21:38.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Jul-2016 13:21:38.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=c:\Документы Ярослава\Практика\trainSite\localtest\apache-tomcat-8.0.36\conf\logging.properties
+11-Jul-2016 13:21:38.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Jul-2016 13:21:38.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=c:\Документы Ярослава\Практика\trainSite\localtest\apache-tomcat-8.0.36\endorsed
+11-Jul-2016 13:21:38.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=c:\Документы Ярослава\Практика\trainSite\localtest\apache-tomcat-8.0.36
+11-Jul-2016 13:21:38.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=c:\Документы Ярослава\Практика\trainSite\localtest\apache-tomcat-8.0.36
+11-Jul-2016 13:21:38.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=c:\Документы Ярослава\Практика\trainSite\localtest\apache-tomcat-8.0.36\temp
+11-Jul-2016 13:21:38.978 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_91\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Microsoft HPC Pack 2012\Bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Users\Ярослав\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\MATLAB\R2015b\runtime\win64;C:\Program Files\MATLAB\R2015b\bin;C:\Program Files\MATLAB\R2015b\polyspace\bin;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;.
+11-Jul-2016 13:21:39.212 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-80"]
+11-Jul-2016 13:21:39.337 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Jul-2016 13:21:39.337 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Jul-2016 13:21:39.337 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Jul-2016 13:21:39.337 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1030 ms
+11-Jul-2016 13:21:39.353 WARNING [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = postgres Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+11-Jul-2016 13:21:39.353 WARNING [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = postgres Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "-1" for "maxWait" property, which is being ignored.
+11-Jul-2016 13:21:39.400 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+11-Jul-2016 13:21:39.400 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.36
+11-Jul-2016 13:21:40.353 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Jul-2016 13:21:40.509 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
+11-Jul-2016 13:21:40.525 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Jul-2016 13:21:40.525 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1181 ms
+11-Jul-2016 13:28:50.736 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+11-Jul-2016 13:28:51.116 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+11-Jul-2016 13:46:08.706 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+11-Jul-2016 13:46:08.721 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-80"]
+11-Jul-2016 13:46:08.776 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-Jul-2016 13:46:08.827 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+11-Jul-2016 13:46:08.871 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-80"]
+11-Jul-2016 13:46:08.879 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-Jul-2016 13:46:08.880 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-80"]
+11-Jul-2016 13:46:08.882 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+11-Jul-2016 16:42:23.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.36
+11-Jul-2016 16:42:23.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 9 2016 13:55:50 UTC
+11-Jul-2016 16:42:23.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.36.0
+11-Jul-2016 16:42:23.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-Jul-2016 16:42:23.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-Jul-2016 16:42:23.957 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Jul-2016 16:42:23.958 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_91\jre
+11-Jul-2016 16:42:23.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_91-b15
+11-Jul-2016 16:42:23.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Jul-2016 16:42:23.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Документы Ярослава\Практика\trainSite\localtest\apache-tomcat-8.0.36
+11-Jul-2016 16:42:23.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Документы Ярослава\Практика\trainSite\localtest\apache-tomcat-8.0.36
+11-Jul-2016 16:42:23.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Jul-2016 16:42:23.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=c:\Документы Ярослава\Практика\trainSite\localtest\apache-tomcat-8.0.36\conf\logging.properties
+11-Jul-2016 16:42:23.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Jul-2016 16:42:23.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=c:\Документы Ярослава\Практика\trainSite\localtest\apache-tomcat-8.0.36\endorsed
+11-Jul-2016 16:42:23.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=c:\Документы Ярослава\Практика\trainSite\localtest\apache-tomcat-8.0.36
+11-Jul-2016 16:42:23.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=c:\Документы Ярослава\Практика\trainSite\localtest\apache-tomcat-8.0.36
+11-Jul-2016 16:42:23.967 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=c:\Документы Ярослава\Практика\trainSite\localtest\apache-tomcat-8.0.36\temp
+11-Jul-2016 16:42:23.968 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_91\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Microsoft HPC Pack 2012\Bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Users\Ярослав\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\MATLAB\R2015b\runtime\win64;C:\Program Files\MATLAB\R2015b\bin;C:\Program Files\MATLAB\R2015b\polyspace\bin;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;.
+11-Jul-2016 16:42:24.234 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-80"]
+11-Jul-2016 16:42:24.361 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Jul-2016 16:42:24.366 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Jul-2016 16:42:24.370 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Jul-2016 16:42:24.371 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1345 ms
+11-Jul-2016 16:42:24.388 WARNING [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = postgres Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+11-Jul-2016 16:42:24.389 WARNING [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = postgres Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "-1" for "maxWait" property, which is being ignored.
+11-Jul-2016 16:42:24.467 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+11-Jul-2016 16:42:24.468 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.36
+11-Jul-2016 16:42:25.676 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Jul-2016 16:42:25.901 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
+11-Jul-2016 16:42:25.912 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Jul-2016 16:42:25.915 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1541 ms
+11-Jul-2016 16:46:46.185 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+11-Jul-2016 16:46:47.221 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+11-Jul-2016 17:01:27.623 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+11-Jul-2016 17:01:32.576 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:
+ org.apache.jsp.test2_jsp._jspService(test2_jsp.java:234)
+ org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+ org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:438)
+ org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+ org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+ org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:720)
+ org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:466)
+ org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:391)
+ org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:318)
+ ua.mysite2.web.servlets.SetParamTotest.doPost(Unknown Source)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+ org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:528)
+ org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1099)
+ org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:670)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1520)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1476)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.lang.Thread.run(Thread.java:745)
+11-Jul-2016 17:01:33.045 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+11-Jul-2016 17:09:33.234 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+11-Jul-2016 17:09:35.043 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+11-Jul-2016 17:27:55.719 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+11-Jul-2016 17:27:56.281 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+11-Jul-2016 17:28:46.293 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+11-Jul-2016 17:28:46.633 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+11-Jul-2016 17:42:06.820 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+11-Jul-2016 17:42:07.998 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+11-Jul-2016 17:49:18.668 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+11-Jul-2016 17:49:20.078 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+11-Jul-2016 17:50:10.100 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+11-Jul-2016 17:50:12.043 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+11-Jul-2016 17:50:44.015 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+11-Jul-2016 17:50:44.017 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-80"]
+11-Jul-2016 17:50:44.070 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-Jul-2016 17:50:44.121 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+11-Jul-2016 17:50:44.135 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-80"]
+11-Jul-2016 17:50:49.421 WARNING [main] org.apache.tomcat.util.net.AbstractEndpoint.shutdownExecutor The executor associated with thread pool [http-nio-80] has not fully shutdown. Some application threads may still be running.
+11-Jul-2016 17:50:49.470 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-Jul-2016 17:50:49.597 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-80"]
+11-Jul-2016 17:50:49.690 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

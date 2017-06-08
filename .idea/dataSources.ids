@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="PostgreSQL - TrainDb@localhost" uuid="a91c88ee-f071-4f18-b8bb-f05820b3c1af">
+    <database-info product="PostgreSQL" version="9.5.3" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4.1212">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact"/>
+    <database-model serializer="dbm" rdbms="POSTGRES" format-version="2.5">
+      <database id="1" name="TrainDb"/>
+      <schema id="2" parent="1" name="public">
+        <object-id>2200</object-id>
+        <comment>standard public schema</comment>
+        <introspection-state-number>641</introspection-state-number>
+        <introspection-timestamp>2017-06-07.15:38:43.527</introspection-timestamp>
+      </schema>
+      <table id="3" parent="2" name="allanswers">
+        <object-id>16411</object-id>
+        <state-number>637</state-number>
+      </table>
+      <table id="4" parent="2" name="questions">
+        <object-id>16414</object-id>
+        <state-number>638</state-number>
+      </table>
+      <table id="5" parent="2" name="questions2">
+        <object-id>16417</object-id>
+        <state-number>639</state-number>
+      </table>
+      <table id="6" parent="2" name="register">
+        <object-id>16420</object-id>
+        <state-number>640</state-number>
+      </table>
+      <table id="7" parent="2" name="useranswers">
+        <object-id>16423</object-id>
+        <state-number>641</state-number>
+      </table>
+      <column id="8" parent="3" name="id_q">
+        <state-number>637</state-number>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="9" parent="3" name="id_a">
+        <state-number>637</state-number>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="10" parent="3" name="a_text">
+        <state-number>637</state-number>
+        <data-type>varchar(400)</data-type>
+      </column>
+      <column id="11" parent="3" name="iscorrect">
+        <state-number>637</state-number>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="12" parent="4" name="id_q">
+        <state-number>638</state-number>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="13" parent="4" name="q_text">
+        <state-number>638</state-number>
+        <data-type>varchar(400)</data-type>
+      </column>
+      <column id="14" parent="5" name="id_q">
+        <state-number>639</state-number>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="15" parent="5" name="q_text">
+        <state-number>639</state-number>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="16" parent="6" name="id_u">
+        <state-number>640</state-number>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="17" parent="6" name="username">
+        <state-number>640</state-number>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="18" parent="6" name="pass">
+        <state-number>640</state-number>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="19" parent="6" name="first_name">
+        <state-number>640</state-number>
+        <data-type>varchar(25)</data-type>
+      </column>
+      <column id="20" parent="6" name="last_name">
+        <state-number>640</state-number>
+        <data-type>varchar(25)</data-type>
+      </column>
+      <column id="21" parent="6" name="email">
+        <state-number>640</state-number>
+        <data-type>varchar(25)</data-type>
+      </column>
+      <column id="22" parent="6" name="age">
+        <state-number>640</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="23" parent="6" name="students_group">
+        <state-number>640</state-number>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="24" parent="7" name="id_u">
+        <state-number>641</state-number>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="25" parent="7" name="id_q">
+        <state-number>641</state-number>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="26" parent="7" name="result">
+        <state-number>641</state-number>
+        <data-type>varchar(15)</data-type>
+      </column>
+    </database-model>
+  </data-source>
+</component>

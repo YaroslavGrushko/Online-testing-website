@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" >
+
+
+<servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>ua.mysite2.web.servlets.Login</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>Welcome</servlet-name>
+        <servlet-class>ua.mysite2.web.servlets.Welcome</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name> SetParamTotest</servlet-name>
+        <servlet-class>ua.mysite2.web.servlets.SetParamTotest</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>AcceptChanges</servlet-name>
+        <servlet-class>ua.mysite2.web.servlets.AcceptChanges</servlet-class>
+    </servlet>
+
+    <servlet>
+    <servlet-name>NextQuestion</servlet-name>
+    <servlet-class>ua.mysite2.web.servlets.NextQuestion</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AcceptAnswers</servlet-name>
+        <servlet-class>ua.mysite2.web.servlets.AcceptAnswers</servlet-class>
+    </servlet>
+
+<!--задаем ссылку для каждого сервлета:-->
+
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Welcome</servlet-name>
+        <url-pattern>/Welcome</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>SetParamTotest</servlet-name>
+        <url-pattern>/setParamTotest</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>AcceptChanges</servlet-name>
+        <url-pattern>/acceptChanges</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>NextQuestion</servlet-name>
+        <url-pattern>/nextQuestion</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AcceptAnswers</servlet-name>
+        <url-pattern>/acceptAnswers</url-pattern>
+    </servlet-mapping>
+
+    <!-- подключение postgrSQL-->
+    <resource-ref>
+        <res-ref-name>jdbc/postgres</res-ref-name><!--//обращем внимание что имя совпадает с аттрибутом name указанным в context.xml-->
+        <res-type>javax.sql.DataSource</res-type>
+        <res-auth>Container</res-auth>
+    </resource-ref>
+
+    <welcome-file-list>
+        <welcome-file>mypage.html</welcome-file>
+    </welcome-file-list>
+
+</web-app>
+
+
+

@@ -1,0 +1,199 @@
+11-Jul-2016 17:49:26.991 SEVERE [http-nio-80-exec-55] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet jsp threw exception
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 109 in the jsp file: /test2.jsp
+Syntax error on tokens, delete these tokens
+106:     "<input type=\"button\" value=\"Кнопка\">"+
+107: "</form>");
+108: 
+109: <%--<script src="/script1.js"></script>--%>
+110: <%--<script type="text/javascript">setTimeout('fulltime()',10);</script>;--%>
+111: <%--<script type="text/javascript">function showMessage() {--%>
+112: <%--alert( 'Hello my friend!' );--%>
+
+
+An error occurred at line: 109 in the jsp file: /test2.jsp
+script cannot be resolved to a type
+106:     "<input type=\"button\" value=\"Кнопка\">"+
+107: "</form>");
+108: 
+109: <%--<script src="/script1.js"></script>--%>
+110: <%--<script type="text/javascript">setTimeout('fulltime()',10);</script>;--%>
+111: <%--<script type="text/javascript">function showMessage() {--%>
+112: <%--alert( 'Hello my friend!' );--%>
+
+
+An error occurred at line: 109 in the jsp file: /test2.jsp
+Syntax error on token "<", invalid Expression
+106:     "<input type=\"button\" value=\"Кнопка\">"+
+107: "</form>");
+108: 
+109: <%--<script src="/script1.js"></script>--%>
+110: <%--<script type="text/javascript">setTimeout('fulltime()',10);</script>;--%>
+111: <%--<script type="text/javascript">function showMessage() {--%>
+112: <%--alert( 'Hello my friend!' );--%>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:198)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:457)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:585)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:363)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:720)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:466)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:391)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:318)
+	at ua.mysite2.web.servlets.SetParamTotest.doPost(Unknown Source)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:528)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1099)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:670)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1520)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1476)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+11-Jul-2016 17:49:26.992 SEVERE [http-nio-80-exec-55] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [SetParamTotest] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 109 in the jsp file: /test2.jsp
+Syntax error on tokens, delete these tokens
+106:     "<input type=\"button\" value=\"Кнопка\">"+
+107: "</form>");
+108: 
+109: <%--<script src="/script1.js"></script>--%>
+110: <%--<script type="text/javascript">setTimeout('fulltime()',10);</script>;--%>
+111: <%--<script type="text/javascript">function showMessage() {--%>
+112: <%--alert( 'Hello my friend!' );--%>
+
+
+An error occurred at line: 109 in the jsp file: /test2.jsp
+script cannot be resolved to a type
+106:     "<input type=\"button\" value=\"Кнопка\">"+
+107: "</form>");
+108: 
+109: <%--<script src="/script1.js"></script>--%>
+110: <%--<script type="text/javascript">setTimeout('fulltime()',10);</script>;--%>
+111: <%--<script type="text/javascript">function showMessage() {--%>
+112: <%--alert( 'Hello my friend!' );--%>
+
+
+An error occurred at line: 109 in the jsp file: /test2.jsp
+Syntax error on token "<", invalid Expression
+106:     "<input type=\"button\" value=\"Кнопка\">"+
+107: "</form>");
+108: 
+109: <%--<script src="/script1.js"></script>--%>
+110: <%--<script type="text/javascript">setTimeout('fulltime()',10);</script>;--%>
+111: <%--<script type="text/javascript">function showMessage() {--%>
+112: <%--alert( 'Hello my friend!' );--%>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 109 in the jsp file: /test2.jsp
+Syntax error on tokens, delete these tokens
+106:     "<input type=\"button\" value=\"Кнопка\">"+
+107: "</form>");
+108: 
+109: <%--<script src="/script1.js"></script>--%>
+110: <%--<script type="text/javascript">setTimeout('fulltime()',10);</script>;--%>
+111: <%--<script type="text/javascript">function showMessage() {--%>
+112: <%--alert( 'Hello my friend!' );--%>
+
+
+An error occurred at line: 109 in the jsp file: /test2.jsp
+script cannot be resolved to a type
+106:     "<input type=\"button\" value=\"Кнопка\">"+
+107: "</form>");
+108: 
+109: <%--<script src="/script1.js"></script>--%>
+110: <%--<script type="text/javascript">setTimeout('fulltime()',10);</script>;--%>
+111: <%--<script type="text/javascript">function showMessage() {--%>
+112: <%--alert( 'Hello my friend!' );--%>
+
+
+An error occurred at line: 109 in the jsp file: /test2.jsp
+Syntax error on token "<", invalid Expression
+106:     "<input type=\"button\" value=\"Кнопка\">"+
+107: "</form>");
+108: 
+109: <%--<script src="/script1.js"></script>--%>
+110: <%--<script type="text/javascript">setTimeout('fulltime()',10);</script>;--%>
+111: <%--<script type="text/javascript">function showMessage() {--%>
+112: <%--alert( 'Hello my friend!' );--%>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:198)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:457)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:585)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:363)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:720)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:466)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:391)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:318)
+	at ua.mysite2.web.servlets.SetParamTotest.doPost(Unknown Source)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:528)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1099)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:670)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1520)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1476)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+

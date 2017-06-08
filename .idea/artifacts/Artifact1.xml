@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Artifact1">
+    <output-path>$PROJECT_DIR$/out/artifacts/Artifact1</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="mysite2" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib1" />
+          <element id="library" level="project" name="postgresql-9.4.1208.jre6" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="mysite2/web/Web" />
+    </root>
+  </artifact>
+</component>

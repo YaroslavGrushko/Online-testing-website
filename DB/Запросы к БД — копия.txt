@@ -1,0 +1,45 @@
+create table register (email varchar(15), pass varchar(15));
+insert into register values('Yaroslav', '111'),('Vyacheslav','222'),('Dmitriy','333');
+select * from register;
+
+create table register (id_u varchar(15), username varchar(15), pass varchar(15));
+insert into register values(1, 'admin','000'),(2, 'Yaroslav', '111'),(3, 'Vyacheslav','222'),(4, 'Dmitriy','333'),(5, 'A', '1');
+
+select * from register;
+
+drop table register;
+
+create table questions(id_q varchar(15), q_text varchar(400));
+insert into questions values('1', 'text');
+delete from questions where q_text='!@#$%^&*()_+12?';
+update questions set q_text='text6' where id_q='6'
+
+select * from questions;
+drop table questions;
+
+create table questions2(id_q varchar(15), q_text varchar(15));
+insert into questions2 values('1', 'text');
+select * from questions2;
+
+create table UserAnswers(id_u varchar(15), id_q varchar(15), result varchar(15));
+
+insert into UserAnswers values((select id_u from register where username='A'),'1','true');
+
+select * from UserAnswers where id_u=(Select id_u from register where username='A') and id_q='1' 
+update UserAnswers set result='false' where id_u='5' and id_q='1'
+insert into UserAnswers values((Select id_u from register where username='A'), '2', 'false');
+delete from UserAnswers where id_u='5' and id_q='1'
+select * from UserAnswers
+
+drop table UserAnswers
+
+
+
+create table AllAnswers(id_q varchar(15), id_a varchar(15),a_text varchar(400), isCorrect varchar(15));
+insert into AllAnswers values('1', '1', 'q1answtext1', 'true'),('1', '2', 'q1answtext2', 'false'),('1', '3', 'q1answtext3', 'false'),('2', '1', 'q2answtext1', 'false'),('2', '2', 'q2answtext2', 'true');
+
+update AllAnswers set a_text ='ans123', iscorrect='true' where id_q='2' and id_a='2'
+select count(*) from AllAnswers where id_q='2';
+
+select * from AllAnswers
+drop table AllAnswers
